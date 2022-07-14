@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="ox.css">
+    <title>◯×ゲーム</title>
+</head>
+
+<body>
+    <div class="title">
+        <span>◯</span>
+        <span>×</span>
+        <span>Game</span>
+    </div>
+    <div id="top">
+        <span id="start" class="start">始める</span>
+    </div>
+    <div id="end" class="is-hidden">
+        <h1 id="judgdisplay"></h1>
+        <p id="again"></p>
+    </div>
+    <div id="display" class="is-hidden">
+        <h1>
+            ◯
+            <span class="font">×</span>
+            <span class="font-2">対戦中</span>
+        </h1>
+        <span class="attack"></span>
+        <span class="attack2"></span>
+    </div>
+
+    <div id="squares-box">
+        <!-- 1行め -->
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+        <!-- 2行め -->
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+        <!-- 3行め -->
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+    </div>
+    <div class="First">
+        <span>先攻</span>
+        <span>◯</span>
+    </div>
+    <div class="Second">
+        <span>後攻</span>
+        <span>×</span>
+    </div>  
+    <script type="text/javascript" src="ox.js"></script>
+</body>
+</html>
